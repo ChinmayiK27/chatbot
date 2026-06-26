@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ChatBubble from './components/ChatBubble';
 
-const API_URL = 'http://localhost:4000/api/chat';
+const API_URL = 'https://chatbot-backend-0xky.onrender.com/api/chat';
 
 function App() {
   const [messages, setMessages] = useState([
